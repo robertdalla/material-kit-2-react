@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { forwardRef, createContext, useContext } from "react";
+import { forwardRef, createContext, useContext, useMemo } from "react";
 
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
@@ -39,8 +39,9 @@ const MKPagination = forwardRef(
       placementValue = "center";
     }
 
+    const makeEslintHappy = useMemo(() => ({ variant, color, size }), []);
     return (
-      <Context.Provider value={{ variant, color, size }}>
+      <Context.Provider value={makeEslintHappy}>
         {item ? (
           <MKPaginationItemRoot
             {...rest}
