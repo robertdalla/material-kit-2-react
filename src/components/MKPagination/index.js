@@ -25,7 +25,7 @@ import MKBox from "components/MKBox";
 import MKPaginationItemRoot from "components/MKPagination/MKPaginationItemRoot";
 
 // The Pagination main context
-const Context = createContext();
+const Context = createContext(null);
 
 const MKPagination = forwardRef(
   ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {

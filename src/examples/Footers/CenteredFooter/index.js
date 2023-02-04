@@ -136,8 +136,10 @@ CenteredFooter.defaultProps = {
 // Typechecking props for the CenteredFooter
 CenteredFooter.propTypes = {
   company: PropTypes.objectOf(PropTypes.string),
-  links: PropTypes.arrayOf(PropTypes.object),
-  socials: PropTypes.arrayOf(PropTypes.object),
+  // links: PropTypes.arrayOf(PropTypes.object) /** Eslint throws error 'Prop type "object" is forbidden' */,
+  links: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])) /** Fix */,
+  // socials: PropTypes.arrayOf(PropTypes.object) /** Eslint throws error 'Prop type "object" is forbidden' */,
+  socials: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])) /** Fix */,
   light: PropTypes.bool,
 };
 

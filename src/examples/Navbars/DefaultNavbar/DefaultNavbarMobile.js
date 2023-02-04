@@ -159,7 +159,8 @@ function DefaultNavbarMobile({ routes, open }) {
 
 // Typechecking props for the DefaultNavbarMobile
 DefaultNavbarMobile.propTypes = {
-  routes: PropTypes.arrayOf(PropTypes.object).isRequired,
+  // routes: PropTypes.arrayOf(PropTypes.object).isRequired /** Eslint throws error 'Prop type "object" is forbidden' */,
+  routes: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])).isRequired /** Fix */,
   open: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
 };
 
