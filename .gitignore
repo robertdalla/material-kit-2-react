@@ -1,0 +1,76 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+#------------------------------------
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+#------------------------------------
+# testing
+/frontend/coverage
+
+#------------------------------------
+# production
+/frontend/build
+
+#------------------------------------
+# debug
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/testem.log*
+
+#------------------------------------
+# local env files
+
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+#------------------------------------
+# Visual Studio Files and directories
+
+*.suo        # 'user' settings like 'which file is open in Visual Studio'
+*.ncb        # Used for debugging
+*.user
+*.ccscc      # Used for versioning
+*.cache
+
+/.vs
+/packages
+/bin
+/obj
+/pkgobj
+/pkg
+
+#------------------------------------
+# IDEs and editors
+
+/.idea
+/.classpath
+/.c9
+*.launch
+*.sublime-workspace
+
+/.vscode
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+
+#------------------------------------
+# app
+
+/frontend/dist
+/frontend/tmp
+
+#------------------------------------
+# misc
+
+/frontend/.DS_Store
+/frontend/Thumbs.db
+/frontend/.sass-cache
+/frontend/.cache
