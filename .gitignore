@@ -2,6 +2,7 @@
 
 #------------------------------------
 # dependencies
+/backend/node_modules
 /frontend/node_modules
 /frontend/.pnp
 /frontend/.pnp.js
@@ -12,6 +13,7 @@
 
 #------------------------------------
 # production
+/backend/build
 /frontend/build
 
 #------------------------------------
@@ -62,15 +64,13 @@
 !/.vscode/extensions.json
 
 #------------------------------------
-# app
-
-/frontend/dist
-/frontend/tmp
-
-#------------------------------------
 # misc
 
+/.DS_Store
 /frontend/.DS_Store
+/backend/.DS_Store
+/Thumbs.db
 /frontend/Thumbs.db
+/backend/Thumbs.db
 /frontend/.sass-cache
 /frontend/.cache

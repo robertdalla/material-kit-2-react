@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -31,11 +31,19 @@ import routes from "routes";
 
 export default function App() {
   const { pathname } = useLocation();
+  // const [dataFetched] = React.useState(null);
 
   // Setting page scroll to 0 when changing the route
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
+
+    fetch("/api")
+      .then((res) => res.json())
+      .then((res) => {
+        const dataFetched = res.message;
+        console.warn("data from server:", dataFetched);
+      });
   }, [pathname]);
 
   const getRoutes = (allRoutes) =>
