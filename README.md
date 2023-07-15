@@ -1,6 +1,6 @@
 # Material Kit 2 React (fixed)
 
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/83/original/material-kit-2-react.jpg)
 
@@ -45,15 +45,9 @@ Run `npm run test` to execute the tests with [Jest](https://jestjs.io/)
 - [Browser Support](#browser-support)
 - [Licensing](#licensing)
 
-| [![Material Kit 2 React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/material-kit-2-react.jpg)](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr)
+[![Material Kit 2 React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/material-kit-2-react.jpg)](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr)
 
-## Live demo (original Material kit project)
-
-- [About Us](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/about-us?ref=readme-mkr)
-- [Contact Us](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/contact-us?ref=readme-mkr)
-- [Author](https://demos.creative-tim.com/material-kit-react/#/pages/landing-pages/author?ref=readme-mkr)
-- [Pricing page](https://demos.creative-tim.com/material-kit-react/#/pages/authentication/sign-in?ref=readme-mkr)
-- [View More](https://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr).
+### [Live demo](https://material-kit-2-react.dmxnetworks.com.au/)
 
 ## Quick start
 
@@ -70,6 +64,7 @@ The documentation for the main Material Dashboard [project](https://www.creative
 ```
 material-kit-2-react
     ├── public
+    │   ├── fontawesome
     │   ├── apple-icon.png
     │   ├── favicon.png
     │   ├── index.html
@@ -120,11 +115,11 @@ material-kit-2-react
     │   ├── footer.routes.js
     │   └── routes.js
     ├── .eslintrc.json
+    ├── .gitignore
     ├── .prettierrc.json
-    ├── CHANGELOG.md
-    ├── ISSUE_TEMPLATE.md
     ├── jsconfig.json
     ├── package.json
+    ├── package-lock.json
     └── README.md
 ```
 

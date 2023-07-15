@@ -5,7 +5,7 @@
   "author": "Creative Tim & Robert Dalla",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "Material Kit 2 React by Creative Tim, fixed and updated to React 18.2.0",
-  "homepage": "https://demos.creative-tim.com/material-kit-react/#/",
+  "homepage": "https://material-kit-2-react.dmxnetworks.com.au/#/",
   "repository": {
     "type": "git",
     "url": "https://github.com/robertdalla/material-kit-react-2.0.0.git"
@@ -26,7 +26,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

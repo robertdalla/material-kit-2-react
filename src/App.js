@@ -38,12 +38,13 @@ export default function App() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
 
-    fetch("/api")
-      .then((res) => res.json())
-      .then((res) => {
-        const dataFetched = res.message;
-        console.warn("data from server:", dataFetched);
-      });
+    // fetch("/api")
+    //   .then((res) => res.json())
+    //   .then((res) => {
+    //     const dataFetched = res.message;
+    //     // eslint-disable-next-line no-console
+    //     console.warn("data from server:", dataFetched);
+    //   });
   }, [pathname]);
 
   const getRoutes = (allRoutes) =>
