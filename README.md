@@ -1,6 +1,8 @@
-# Material Kit 2 React (fixed)
+# Material Kit 2 React <font size="3"> (fixed & upgraded to React@18.2)
 
 ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
+
+### [Live demo](https://material-kit-2-react.dmxnetworks.com.au/)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/83/original/material-kit-2-react.jpg)
 
@@ -46,8 +48,6 @@ Run `npm run test` to execute the tests with [Jest](https://jestjs.io/)
 - [Licensing](#licensing)
 
 [![Material Kit 2 React](https://s3.amazonaws.com/creativetim_bucket/products/83/thumb/material-kit-2-react.jpg)](http://demos.creative-tim.com/material-kit-react/#/?ref=readme-mkr)
-
-### [Live demo](https://material-kit-2-react.dmxnetworks.com.au/)
 
 ## Quick start
 
