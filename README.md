@@ -1,4 +1,5 @@
-# Material Kit 2 React <font size="3"> (fixed & upgraded to React@18.2)</font>
+## Material Kit 2 React
+#### (fixed & upgraded to React@18.2)
 
 ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-kit-react.svg)](https://github.com/creativetimofficial/material-kit-react/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -9,7 +10,6 @@
 _Fully Coded Elements_
 Material Kit 2 React is built with over 40 frontend individual elements, like buttons, inputs, navbars, alerts or cards, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled() API and sx prop.
 
-
 ### Frameworks and Libraries
 
 | React @^18 | Material-UI @^5 |
@@ -19,15 +19,15 @@ Material Kit 2 React is built with over 40 frontend individual elements, like bu
 
 The app will automatically reload when any of the source files changes.
 
-Run `npm run start` for a dev server. Navigate to `http://localhost:3000/`.
+`npm run start` to serve project as local dev server. Navigate to `http://localhost:3000/`.
 
-## Build
+## Production
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`npm run build` to build project for production deployment. Build artifacts will be stored in the `dist/` directory.
 
 ## Running tests
 
-Run `npm run test` to execute the tests with [Jest](https://jestjs.io/)
+`npm run test` to execute the tests with [Jest](https://jestjs.io/)
 
 ## HELPFUL LINKS
 
