@@ -10,7 +10,7 @@
 _Fully Coded Elements_
 Material Kit 2 React is built with over 40 frontend individual elements, like buttons, inputs, navbars, alerts or cards, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled() API and sx prop.
 
-### Frameworks and Libraries
+## Frameworks and Libraries
 
 | React @^18 | Material-UI @^5 |
 |------------|-----------------|
