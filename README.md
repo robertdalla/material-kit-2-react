@@ -17,7 +17,7 @@ Material Kit 2 React is built with over 40 frontend individual elements, like bu
 
 ## Development server
 
-The app will automatically reload when any of the source files changes.
+The app will automatically reload when any of the source files is edited.
 
 `npm run start` to serve project as local dev server. Navigate to `http://localhost:3000/`.
 
@@ -25,7 +25,7 @@ The app will automatically reload when any of the source files changes.
 
 `npm run build` to build project for production deployment. Build artifacts will be stored in the `dist/` directory.
 
-## Running tests
+## Tests
 
 `npm run test` to execute the tests with [Jest](https://jestjs.io/)
 
