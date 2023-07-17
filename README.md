@@ -7,8 +7,7 @@
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/83/original/material-kit-2-react.jpg)
 
-_Fully Coded Elements_
-Material Kit 2 React is built with over 40 frontend individual elements, like buttons, inputs, navbars, alerts or cards, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled() API and sx prop.
+Single Page Application, Material Kit 2 React is a complex and innovative Design System using ReactJS & Material-UI and built with over 40 frontend individual elements, like buttons, inputs, navbars, alerts or cards, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using MUI styled() API and sx prop.
 
 ## Frameworks and Libraries
 

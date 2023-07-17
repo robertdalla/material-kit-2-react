@@ -4,8 +4,8 @@
   "private": true,
   "author": "Creative Tim & Robert Dalla",
   "license": "See license in https://www.creative-tim.com/license",
-  "description": "Material Kit 2 React by Creative Tim, fixed and updated to React 18.2.0",
-  "homepage": "https://material-kit-2-react.dmxnetworks.com.au/#/",
+  "description": "Complex and innovative Design System using ReactJS & Material-UI",
+  "homepage": "https://material-kit-2-react.dmxnetworks.com.au/",
   "repository": {
     "type": "git",
     "url": "https://github.com/robertdalla/material-kit-react-2.0.0.git"
